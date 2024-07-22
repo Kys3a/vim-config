@@ -10,6 +10,8 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+#include <stdio.h>
+
 char	*ft_strcpy(char *dest, const char *src)
 {
 	char	*start;
@@ -22,3 +24,14 @@ char	*ft_strcpy(char *dest, const char *src)
 	*dest = '\0';
 	return (start);
 }
+/*
+int main() {
+    char source[] = "Hello, World!";
+    char destination[50];
+
+    ft_strcpy(destination, source);
+    printf("Destination: %s\n", destination);
+
+    return 0;
+}
+*/
